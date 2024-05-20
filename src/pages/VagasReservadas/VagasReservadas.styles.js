@@ -10,6 +10,7 @@ export const MainStyled = styled.div`
 export const TituloForm = styled.h1`
     font-size: 2em;
     margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
 `;
 
 export const MainVagas = styled.div`

@@ -12,13 +12,6 @@ export const MainStyled = styled.main`
     height: 100vh;
 `
 
-export const ImgVoltar = styled.img`
-    position: fixed;
-    top: 4vh;
-    left: 2.5vw;
-    cursor: pointer;
-`
-
 export const ImgLogo = styled.img`
     width: 10vw;
     height: 17vh;

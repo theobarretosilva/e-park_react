@@ -10,13 +10,13 @@ export function SplashPage() {
                 <S.TxtBemVindo>Seja bem-vindo ao</S.TxtBemVindo>
                 <S.ImgLogo src='../../src/assets/svg/logo.svg' />
                 <S.SubtituloInicio>O aplicativo onde você pode reservar, visualizar e deletar suas vagas de estacionamento!</S.SubtituloInicio>
-                <S.BtnNav onClick={() => navigate('/reservarVaga')}>
+                <S.BtnNav onClick={() => navigate('/navegar/reservarVaga')}>
                     Reservar vaga
                 </S.BtnNav>
-                <S.BtnNav onClick={() => navigate('/listagemVagas/vagasDisponiveis')}>
+                <S.BtnNav onClick={() => navigate('/navegar/vagasDisponiveis')}>
                     Visualizar vagas disponíveis
                 </S.BtnNav>
-                <S.BtnNav onClick={() => navigate('/listagemVagas/vagasReservadas')}>
+                <S.BtnNav onClick={() => navigate('/navegar/vagasReservadas')}>
                     Visualizar vagas reservadas
                 </S.BtnNav>
             </S.MainStyled>

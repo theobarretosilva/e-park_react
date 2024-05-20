@@ -9,10 +9,10 @@ export function Router() {
     return(
         <Routes>
             <Route path="/" element={<SplashPage />} />
-            <Route path="/reservarVaga" element={<ReservarVaga />} />
-            <Route path="/listagemVagas" element={<ListagemVagas />}>
+            <Route path="/navegar" element={<ListagemVagas />}>
                 <Route path="vagasDisponiveis" element={<VagasDisponiveis />} />
                 <Route path="vagasReservadas" element={<VagasReservadas />} />
+                <Route path="reservarVaga" element={<ReservarVaga />} />
             </Route>
         </Routes>
     )

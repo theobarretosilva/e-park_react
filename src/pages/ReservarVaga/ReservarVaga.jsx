@@ -60,7 +60,6 @@ export function ReservarVaga() {
 
     return (
         <S.MainStyled>
-            <S.ImgVoltar src="../../src/assets/svg/arrow-left.svg" onClick={() => navigate('/')}/>
             <S.ImgLogo src='../../src/assets/svg/logo.svg' />
             <S.DivForm>
                 <S.TituloForm>Reservar vaga</S.TituloForm>
